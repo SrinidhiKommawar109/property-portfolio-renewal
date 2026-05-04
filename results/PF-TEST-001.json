@@ -3,16 +3,176 @@
     "portfolio_id": "PF-TEST-001",
     "portfolio_name": "Test Portfolio",
     "property_count": 1,
-    "decision_mix": {},
-    "portfolio_avg_delta": 0,
-    "total_material_changes": 0,
-    "flagged_properties": [],
-    "timestamp": "2026-05-04T14:22:48.687023"
+    "decision_mix": {
+      "REFER_TO_SENIOR": {
+        "count": 1,
+        "pct": 100.0
+      }
+    },
+    "portfolio_avg_delta": -2.0,
+    "total_material_changes": 3,
+    "flagged_properties": [
+      {
+        "property_id": "PROP-001",
+        "property_name": "Sunset Office Building",
+        "delta": -2.0,
+        "decision": "REFER_TO_SENIOR",
+        "material_changes": [
+          {
+            "field_path": "construction.last_renovation_year",
+            "prior_value": 2018,
+            "current_value": 2023,
+            "severity": "MATERIAL",
+            "risk_category_affected": "Building, General Property",
+            "risk_impact": "Potential decrease in overall property risk due to newer systems/components.",
+            "reasoning": "A recent renovation (indicated by a change from 2018 to 2023) suggests significant updates to the property's structure, systems (e.g., plumbing, electrical, HVAC), or interior, which can substantially reduce various property risks and claims likelihood. This is a positive material change."
+          },
+          {
+            "field_path": "loss.claims_last_3yr",
+            "prior_value": 0,
+            "current_value": 1,
+            "severity": "MATERIAL",
+            "risk_category_affected": "Loss History, General Liability, Property",
+            "risk_impact": "Significant increase in perceived risk due to a recent loss event, directly impacting renewal terms.",
+            "reasoning": "Moving from zero claims to one claim in the last three years represents a new loss event. Any new claim directly impacts the property's loss history, which is a critical factor in underwriting decisions and premium calculations."
+          },
+          {
+            "field_path": "loss.total_incurred_last_3yr",
+            "prior_value": 0,
+            "current_value": 15000,
+            "severity": "MATERIAL",
+            "risk_category_affected": "Loss History, Financial",
+            "risk_impact": "Significant increase in perceived financial risk due to a recent incurred loss, directly impacting renewal terms.",
+            "reasoning": "The addition of $15,000 in incurred losses directly reflects a financial cost associated with a claim. This financial impact is a primary driver in underwriting and will materially affect future premiums and terms."
+          }
+        ]
+      }
+    ],
+    "timestamp": "2026-05-04T14:54:13.417848"
   },
   "results": [
     {
       "property_id": "PROP-001",
-      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 11.312526252s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '11s'}]}}"
+      "property_name": "Sunset Office Building",
+      "tiv": 5000000,
+      "change_report": {
+        "property_id": "PROP-001",
+        "total_changes": 5,
+        "material_count": 3,
+        "notable_count": 2,
+        "cosmetic_count": 0,
+        "material_changes": [
+          {
+            "field_path": "construction.last_renovation_year",
+            "prior_value": 2018,
+            "current_value": 2023,
+            "severity": "MATERIAL",
+            "risk_category_affected": "Building, General Property",
+            "risk_impact": "Potential decrease in overall property risk due to newer systems/components.",
+            "reasoning": "A recent renovation (indicated by a change from 2018 to 2023) suggests significant updates to the property's structure, systems (e.g., plumbing, electrical, HVAC), or interior, which can substantially reduce various property risks and claims likelihood. This is a positive material change."
+          },
+          {
+            "field_path": "loss.claims_last_3yr",
+            "prior_value": 0,
+            "current_value": 1,
+            "severity": "MATERIAL",
+            "risk_category_affected": "Loss History, General Liability, Property",
+            "risk_impact": "Significant increase in perceived risk due to a recent loss event, directly impacting renewal terms.",
+            "reasoning": "Moving from zero claims to one claim in the last three years represents a new loss event. Any new claim directly impacts the property's loss history, which is a critical factor in underwriting decisions and premium calculations."
+          },
+          {
+            "field_path": "loss.total_incurred_last_3yr",
+            "prior_value": 0,
+            "current_value": 15000,
+            "severity": "MATERIAL",
+            "risk_category_affected": "Loss History, Financial",
+            "risk_impact": "Significant increase in perceived financial risk due to a recent incurred loss, directly impacting renewal terms.",
+            "reasoning": "The addition of $15,000 in incurred losses directly reflects a financial cost associated with a claim. This financial impact is a primary driver in underwriting and will materially affect future premiums and terms."
+          }
+        ],
+        "overall_change_assessment": "Detected 3 material, 2 notable, and 0 cosmetic changes."
+      },
+      "risk_reevaluation": {
+        "overall_trend": "IMPROVED",
+        "prior_overall_score": 10.5,
+        "current_overall_score": 8.5,
+        "overall_delta": -2.0,
+        "dominant_category": "Building Condition",
+        "synthesis_reasoning": "The property's overall risk profile has significantly IMPROVED, with an overall delta of -2.0. This positive shift is primarily driven by moderate improvements in both Building Condition and Occupancy. Building Condition improved significantly (delta -1.0) due to a new renovation completed in 2023, enhancing the property's physical integrity. Concurrently, Occupancy risk improved moderately (delta -1.0), driven by a favorable decrease in the vacancy rate from 6% to 4%. Fire and NatCat risks remained STABLE with no detected changes in their underlying risk factors. The combined effect of these moderate improvements in two key areas leads to a more favorable and reduced overall risk assessment for the property.",
+        "category_results": {
+          "Fire": {
+            "category": "Fire",
+            "prior_score": 1.5,
+            "current_score": 1.5,
+            "delta": 0.0,
+            "direction": "STABLE",
+            "magnitude": "MINOR",
+            "primary_drivers": [],
+            "reasoning": "Step 1: The prior year fire risk is very low. Key factors contributing to this include 'fire_resistive' construction, a 'full_wet' sprinkler system, and 'central_station' alarm monitoring, all of which provide excellent fire prevention and suppression capabilities. The fire station distance of 1.0 is also very favorable for rapid response. The 'Electrical Age' of 21 is moderate but does not significantly elevate risk given the robust other protections. (Score: 1.5)\n\nStep 2: The current year data is identical to the prior year data across all fire risk factors (Construction, Sprinkler, Alarm, Electrical Age, Fire Station Distance). Consequently, the current fire risk profile remains unchanged. (Score: 1.5)\n\nStep 3: The delta is calculated as Current Score (1.5) - Prior Score (1.5) = 0.0. As there is no change, the risk direction is STABLE.\n\nStep 4: The absolute delta is 0.0, which is less than 1, indicating a MINOR magnitude of change.\n\nStep 5: There are no primary change drivers because all relevant data points for fire risk remained constant between the prior and current years, resulting in no change to the risk profile."
+          },
+          "NatCat": {
+            "category": "NatCat",
+            "prior_score": 4.0,
+            "current_score": 4.0,
+            "delta": 0.0,
+            "direction": "STABLE",
+            "magnitude": "MINOR",
+            "primary_drivers": [
+              "No changes detected in NatCat risk factors."
+            ],
+            "reasoning": "Step-by-step CoT reasoning:\n1. Prior Year Score (Step 1): The property is in Flood Zone X (minimal flood risk), a low Earthquake Zone, a moderate Windstorm Zone, and has no Brush Fire Exposure. This combination suggests a relatively stable, moderate-low NatCat risk profile. A score of 4 reflects this.\n2. Current Year Score (Step 2): The current year data for Flood Zone, Earthquake Zone, Windstorm Zone, and Brush Fire Exposure are identical to the prior year. Therefore, the current year NatCat risk score remains 4.\n3. Delta Calculation & Direction (Step 3): The delta is calculated as Current Score (4) - Prior Score (4) = 0. A delta of 0 indicates that the risk has remained STABLE.\n4. Magnitude Assessment (Step 4): A delta of 0 is less than 1, classifying the magnitude of change as MINOR.\n5. Primary Change Drivers (Step 5): As there were no changes detected in any of the underlying NatCat risk factors (Flood Zone, Earthquake Zone, Windstorm Zone, Brush Fire Exposure) between the prior and current year, there are no specific drivers for a change in risk. The stability is due to the consistency of the data."
+          },
+          "Occupancy": {
+            "category": "Occupancy",
+            "prior_score": 3.0,
+            "current_score": 2.0,
+            "delta": -1.0,
+            "direction": "IMPROVED",
+            "magnitude": "MODERATE",
+            "primary_drivers": [
+              "Decrease in vacancy rate"
+            ],
+            "reasoning": "Step 1: Prior year occupancy risk was scored at 3.0. The property type is a professional office, which inherently presents a low-risk profile. With a 6% vacancy rate and no indications of cooking, public assembly, or hazardous materials, the occupancy risk was low but not perfectly minimal.\nStep 2: Current year occupancy risk improved to 2.0. The property type, tenant, and absence of cooking, public assembly, or hazardous materials remained consistent. The key change was a reduction in the vacancy rate from 6% to 4%.\nStep 3: The delta is -1.0 (2.0 - 3.0), indicating an IMPROVED risk direction.\nStep 4: The magnitude of the delta is 1.0, which is classified as MODERATE.\nStep 5: The primary driver for this improvement is the decrease in the vacancy rate. A lower vacancy rate generally signifies better tenant retention, less potential for undetected issues, reduced susceptibility to vandalism, and more consistent oversight, all contributing to a lower occupancy risk profile."
+          },
+          "Building": {
+            "category": "Building Condition",
+            "prior_score": 2.0,
+            "current_score": 1.0,
+            "delta": -1.0,
+            "direction": "IMPROVED",
+            "magnitude": "MODERATE",
+            "primary_drivers": [
+              "New Renovation (2023)"
+            ],
+            "reasoning": "Step-by-step CoT reasoning:\n1.  **Prior Year Score (2.0):** The property was in excellent condition. It's a fire-resistive building constructed in 2005, with a very young roof (2 years old) and a relatively recent renovation in 2018. The absence of violations indicates good maintenance. These factors combine to give a very low risk score of 2.0.\n2.  **Current Year Score (1.0):** The building type and year built remain constant. The roof aged by one year to 3 years, which is still considered very new and presents negligible risk increase. The most significant update is the new renovation completed in 2023. A very recent renovation typically implies substantial upgrades, maintenance, and modernization of building components, which significantly improves the building's overall condition and reduces associated risks. This leads to an even lower risk score of 1.0.\n3.  **Delta Direction:** The score decreased from 2.0 (prior) to 1.0 (current), resulting in a delta of -1.0. A lower score indicates reduced risk, so the direction is IMPROVED.\n4.  **Delta Magnitude:** The absolute delta is 1.0, which falls within the MODERATE range (1-2).\n5.  **Primary Change Drivers:** The key driver for this improvement is the new renovation completed in 2023. This recent major update enhances the building's physical integrity and reduces the likelihood of condition-related issues. The marginal increase in roof age is entirely overshadowed by the positive impact of a comprehensive renovation."
+          }
+        }
+      },
+      "recommendation": {
+        "property_id": "PROP-001",
+        "decision": "REFER_TO_SENIOR",
+        "confidence": "HIGH",
+        "primary_drivers": [
+          "Introduction of a new material loss event (1 claim, $15k incurred) in the last three years, materially impacting loss history.",
+          "Significant positive material change due to a comprehensive 2023 renovation, substantially improving building condition.",
+          "Presence of mixed signals and complex interplay between significant risk score improvements (Building, Occupancy) and a recent material loss event, requiring human judgment."
+        ],
+        "adjustments": {},
+        "rationale": "The renewal for PROP-001 requires referral to a senior underwriter due to a combination of significant positive and negative material changes detected this cycle. While the property's overall physical risk profile has notably improved, evidenced by a recent comprehensive renovation completed in 2023 and a favorable decrease in the vacancy rate, leading to an overall improved risk score, we simultaneously observed the emergence of a new claim totaling $15,000 within the last three years. This introduces a material shift in loss history that must be carefully balanced against the otherwise positive enhancements to the property's condition and occupancy, necessitating a comprehensive review to determine appropriate renewal terms.",
+        "recommendation_report": {
+          "decision": "REFER_TO_SENIOR",
+          "confidence": "HIGH",
+          "primary_drivers": [
+            "Introduction of a new material loss event (1 claim, $15k incurred) in the last three years, materially impacting loss history.",
+            "Significant positive material change due to a comprehensive 2023 renovation, substantially improving building condition.",
+            "Presence of mixed signals and complex interplay between significant risk score improvements (Building, Occupancy) and a recent material loss event, requiring human judgment."
+          ],
+          "rationale": "Despite an overall improved risk trend, indicated by a net delta of -2.0 from a major 2023 renovation and a decreased vacancy rate, this property presents mixed signals requiring senior underwriter review. The substantial positive impact on building condition and occupancy risk is counterbalanced by the introduction of a new material loss event (one claim for $15,000 incurred) in a previously clean loss history. This combination of significant improvements alongside a new loss complicates the risk assessment, necessitating human judgment to determine appropriate renewal premium and terms rather than an automated decision or standard adjustment.",
+          "premium_adjustment_pct": null,
+          "renewal_conditions": null
+        }
+      },
+      "latency_ms": 71186.95259094238
     }
   ]
 }

@@ -14,6 +14,8 @@ from agents.property_reevaluation import reevaluate_property_risk
 from agents.renewal_recommendation import generate_renewal_recommendation
 from utils.llm_client import call_gemini_async
 from agent_a2a.client.a2a_client import ChangeDetectionClient
+from agent_a2a.client.reevaluation_client import ReevaluationClient
+from agent_a2a.client.recommendation_client import RecommendationClient
 import httpx
 
 tracer = get_tracer("portfolio-orchestrator")
@@ -86,13 +88,37 @@ async def process_single_property(property_data: dict, is_first: bool = False) -
                 change_report = await detect_changes_for_property(property_id, current_year, prior_year)
             
             # 2. Risk Re-evaluation
-            risk_reevaluation = await reevaluate_property_risk(property_id, current_year, prior_year, change_report)
+            try:
+                # Try via A2A Server
+                reevaluation_client = ReevaluationClient(base_url="http://localhost:8003")
+                risk_reevaluation = await reevaluation_client.reevaluate_risk_async(
+                    property_id=property_id,
+                    current_data=current_year,
+                    prior_data=prior_year,
+                    change_report=change_report
+                )
+            except (httpx.ConnectError, httpx.ConnectTimeout, httpx.HTTPStatusError):
+                # Fallback to local function if server is offline
+                print(f"⚠️ Reevaluation A2A Server unreachable for {property_id}. Falling back to local agent.")
+                risk_reevaluation = await reevaluate_property_risk(property_id, current_year, prior_year, change_report)
             
             # 3. Renewal Recommendation
-            recommendation = await generate_renewal_recommendation(
-                property_id, change_report, risk_reevaluation, 
-                {"property_type": property_data.get("property_type"), "name": property_name}
-            )
+            try:
+                # Try via A2A Server
+                recommendation_client = RecommendationClient(base_url="http://localhost:8004")
+                recommendation = await recommendation_client.generate_recommendation_async(
+                    property_id=property_id,
+                    change_report=change_report,
+                    risk_reevaluation=risk_reevaluation,
+                    property_context={"property_type": property_data.get("property_type"), "name": property_name}
+                )
+            except (httpx.ConnectError, httpx.ConnectTimeout, httpx.HTTPStatusError):
+                # Fallback to local function if server is offline
+                print(f"⚠️ Recommendation A2A Server unreachable for {property_id}. Falling back to local agent.")
+                recommendation = await generate_renewal_recommendation(
+                    property_id, change_report, risk_reevaluation, 
+                    {"property_type": property_data.get("property_type"), "name": property_name}
+                )
             
             latency = time.time() - start_time
             print(f"✅ {property_name} complete ({latency:.1f}s)")

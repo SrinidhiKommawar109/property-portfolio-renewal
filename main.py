@@ -38,25 +38,33 @@ import time
 async def run_batch_only(portfolio_id):
     print(f"🚀 Starting batch processing for portfolio: {portfolio_id}")
     
-    print("📡 Starting Change Detection A2A Server on port 8002 in background...")
-    a2a_process = subprocess.Popen(
-        [sys.executable, "main.py", "--a2a-server"]
+    print("📡 Starting A2A Servers in background...")
+    change_detection_process = subprocess.Popen(
+        [sys.executable, "agent_a2a/server/a2a_server.py"]
+    )
+    reevaluation_process = subprocess.Popen(
+        [sys.executable, "agent_a2a/server/reevaluation_a2a_server.py"]
+    )
+    recommendation_process = subprocess.Popen(
+        [sys.executable, "agent_a2a/server/recommendation_a2a_server.py"]
     )
     
-    server_ready = False
+    servers_ready = False
     for _ in range(15):
         try:
             async with httpx.AsyncClient() as client:
-                response = await client.get("http://127.0.0.1:8002/health")
-                if response.status_code == 200:
-                    server_ready = True
+                cd_resp = await client.get("http://127.0.0.1:8002/health")
+                re_resp = await client.get("http://127.0.0.1:8003/health")
+                rec_resp = await client.get("http://127.0.0.1:8004/health")
+                if cd_resp.status_code == 200 and re_resp.status_code == 200 and rec_resp.status_code == 200:
+                    servers_ready = True
                     break
         except httpx.ConnectError:
             pass
         await asyncio.sleep(1)
         
-    if not server_ready:
-        print("⚠️ Could not start A2A Server in background. Proceeding with fallback.")
+    if not servers_ready:
+        print("⚠️ Could not start all A2A Servers in background. Proceeding with fallbacks.")
     
     try:
         # Init tracing
@@ -89,8 +97,12 @@ async def run_batch_only(portfolio_id):
         print(f"Results saved to results/{portfolio_id}.json")
         return portfolio_data["portfolio_id"]
     finally:
-        a2a_process.terminate()
-        a2a_process.wait()
+        change_detection_process.terminate()
+        change_detection_process.wait()
+        reevaluation_process.terminate()
+        reevaluation_process.wait()
+        recommendation_process.terminate()
+        recommendation_process.wait()
 
 async def run_interactive_chat(portfolio_id: str):
     print(f"\n💬 Entering Conversational Review Mode for portfolio: {portfolio_id}")
@@ -160,13 +172,17 @@ def main():
     args = parser.parse_args()
 
     if args.a2a_server:
-        print("📡 Starting Change Detection A2A Server on port 8002...")
-        try:
-            import uvicorn
-            uvicorn.run("agent_a2a.server.a2a_server:app", host="127.0.0.1", port=8002)
-        except ImportError as e:
-            print(f"❌ Could not start A2A server: {e}")
-            print("Make sure uvicorn is installed.")
+        print("📡 Starting all A2A Servers...")
+        import uvicorn
+        # For simplicity, start them sequentially or in threads, but since async, perhaps run them in parallel.
+        # But uvicorn.run blocks, so maybe need to run them in separate processes or use multiprocessing.
+        # For now, since the user wants them started, perhaps modify to start each in a subprocess.
+        # But the original was uvicorn.run for change detection.
+        # To keep simple, change to start all three in subprocesses.
+        subprocess.Popen([sys.executable, "agent_a2a/server/a2a_server.py"])
+        subprocess.Popen([sys.executable, "agent_a2a/server/reevaluation_a2a_server.py"])
+        subprocess.Popen([sys.executable, "agent_a2a/server/recommendation_a2a_server.py"])
+        print("All A2A servers started.")
     elif args.portfolio:
         actual_id = asyncio.run(run_batch_only(args.portfolio))
         if args.interactive and actual_id:

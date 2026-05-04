@@ -1,0 +1,16 @@
+{
+  "name": "property_reevaluation_agent",
+  "description": "Expert risk assessment agent that evaluates risk deltas across Fire, NatCat, Occupancy, and Building Condition categories.",
+  "url": "http://localhost:8003",
+  "version": "1.0.0",
+  "capabilities": { "streaming": false, "pushNotifications": false },
+  "skills": [
+    {
+      "id": "property-risk-reevaluation",
+      "name": "Property Risk Re-evaluation",
+      "description": "Calculates risk score deltas and identifies primary change drivers using Chain-of-Thought reasoning.",
+      "inputModes": ["text"],
+      "outputModes": ["text"]
+    }
+  ]
+}

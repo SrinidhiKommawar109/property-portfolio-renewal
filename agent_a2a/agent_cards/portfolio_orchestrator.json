@@ -1,0 +1,23 @@
+{
+  "name": "portfolio_orchestrator",
+  "description": "Property portfolio renewal orchestrator. Accepts portfolio JSON, fans out parallel property reviews across N properties simultaneously, aggregates results, and provides conversational review interface adapted to underwriter experience level.",
+  "url": "http://localhost:8001",
+  "version": "1.0.0",
+  "capabilities": { "streaming": true, "pushNotifications": false },
+  "skills": [
+    {
+      "id": "portfolio-batch-review",
+      "name": "Portfolio Batch Renewal Review",
+      "description": "Processes 10-50 properties in parallel: change detection -> risk re-evaluation -> renewal recommendation -> portfolio summary.",
+      "inputModes": ["text"],
+      "outputModes": ["text"]
+    },
+    {
+      "id": "portfolio-conversational-review",
+      "name": "Portfolio Conversational Review",
+      "description": "Interactive review of batch results. Supports drill-down, comparison, and override. Adapts to junior/senior underwriter profiles.",
+      "inputModes": ["text"],
+      "outputModes": ["text"]
+    }
+  ]
+}

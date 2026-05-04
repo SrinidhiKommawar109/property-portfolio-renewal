@@ -1,0 +1,665 @@
+{
+  "portfolio_id": "PF-NORTHEAST-001",
+  "portfolio_name": "Northeast Mixed-Use Portfolio",
+  "account_name": "Metro North Realty Partners",
+  "renewal_date": "2026-09-30",
+  "broker": "WTW — New York",
+  "current_premium": 980000,
+  "properties": [
+    {
+      "property_id": "PROP-NE-001",
+      "property_name": "Manhattan Lofts",
+      "address": "120 W 24th St, New York, NY 10011",
+      "property_type": "mixed_use",
+      "total_insured_value": 35000000,
+      "current_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 1925,
+          "stories": 12,
+          "total_sqft": 110000,
+          "roof_type": "pavers",
+          "roof_age_years": 10,
+          "last_renovation_year": 2018
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "office_residential",
+          "primary_tenant": "Various Creative Agencies",
+          "vacancy_rate_pct": 3,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 800
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 1,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.2
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 1925,
+          "stories": 12,
+          "total_sqft": 110000,
+          "roof_type": "pavers",
+          "roof_age_years": 9,
+          "last_renovation_year": 2018
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "office_residential",
+          "primary_tenant": "Various Creative Agencies",
+          "vacancy_rate_pct": 3,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 800
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 1,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.2
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      }
+    },
+    {
+      "property_id": "PROP-NE-002",
+      "property_name": "Jersey City Industrial",
+      "address": "450 Industrial Way, Jersey City, NJ 07304",
+      "property_type": "industrial",
+      "total_insured_value": 12500000,
+      "current_year": {
+        "construction": {
+          "construction_type": "non_combustible",
+          "construction_class": 4,
+          "year_built": 1988,
+          "stories": 1,
+          "total_sqft": 150000,
+          "roof_type": "metal",
+          "roof_age_years": 12,
+          "last_renovation_year": 2012
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "warehouse",
+          "primary_tenant": "Amazon Logistics (Sub-tenant)",
+          "vacancy_rate_pct": 0,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 150
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 2,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 1.5
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "non_combustible",
+          "construction_class": 4,
+          "year_built": 1988,
+          "stories": 1,
+          "total_sqft": 150000,
+          "roof_type": "metal",
+          "roof_age_years": 11,
+          "last_renovation_year": 2012
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "warehouse",
+          "primary_tenant": "Amazon Logistics (Sub-tenant)",
+          "vacancy_rate_pct": 0,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 150
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 2,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 1.5
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      }
+    },
+    {
+      "property_id": "PROP-NE-003",
+      "property_name": "Brooklyn Creative Space",
+      "address": "55 Water St, Brooklyn, NY 11201",
+      "property_type": "office",
+      "total_insured_value": 28000000,
+      "current_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 2005,
+          "stories": 6,
+          "total_sqft": 85000,
+          "roof_type": "tpo",
+          "roof_age_years": 5,
+          "last_renovation_year": 2020
+        },
+        "hazards": {
+          "flood_zone": "AE",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "tech_office",
+          "primary_tenant": "Etsy Inc",
+          "vacancy_rate_pct": 1,
+          "cooking_operations": true,
+          "public_assembly": true,
+          "max_occupant_load": 1200
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 1,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.5
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 2005,
+          "stories": 6,
+          "total_sqft": 85000,
+          "roof_type": "tpo",
+          "roof_age_years": 4,
+          "last_renovation_year": 2020
+        },
+        "hazards": {
+          "flood_zone": "AE",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "tech_office",
+          "primary_tenant": "Etsy Inc",
+          "vacancy_rate_pct": 1,
+          "cooking_operations": true,
+          "public_assembly": true,
+          "max_occupant_load": 1200
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 1,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.5
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      }
+    },
+    {
+      "property_id": "PROP-NE-004",
+      "property_name": "44 Elm Street",
+      "address": "44 Elm St, Newark, NJ 07102",
+      "property_type": "mixed_use",
+      "total_insured_value": 8500000,
+      "current_year": {
+        "construction": {
+          "construction_type": "ordinary",
+          "construction_class": 3,
+          "year_built": 1955,
+          "stories": 4,
+          "total_sqft": 42000,
+          "roof_type": "built_up",
+          "roof_age_years": 18,
+          "last_renovation_year": 1995
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "retail_office",
+          "primary_tenant": "Local Professional Services",
+          "vacancy_rate_pct": 15,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 200
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 3,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.8
+        },
+        "loss": {
+          "claims_last_3yr": 1,
+          "total_incurred_last_3yr": 12000,
+          "largest_single_loss": 12000,
+          "loss_ratio_3yr": 0.1
+        },
+        "compliance": {
+          "code_violations": "Open electrical code violation - scheduled for renovation 2026-10-01"
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "ordinary",
+          "construction_class": 3,
+          "year_built": 1955,
+          "stories": 4,
+          "total_sqft": 42000,
+          "roof_type": "built_up",
+          "roof_age_years": 17,
+          "last_renovation_year": 1995
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "retail_office",
+          "primary_tenant": "Local Professional Services",
+          "vacancy_rate_pct": 10,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 200
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 3,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.8
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        },
+        "compliance": {
+          "code_violations": null
+        }
+      }
+    },
+    {
+      "property_id": "PROP-NE-005",
+      "property_name": "Hoboken Waterfront Plaza",
+      "address": "222 River St, Hoboken, NJ 07030",
+      "property_type": "mixed_use",
+      "total_insured_value": 15000000,
+      "current_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 1992,
+          "stories": 5,
+          "total_sqft": 65000,
+          "roof_type": "built_up",
+          "roof_age_years": 12,
+          "last_renovation_year": 2015
+        },
+        "hazards": {
+          "flood_zone": "AE",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "retail_office",
+          "primary_tenant": "New Italian Bistro (Ground Floor)",
+          "vacancy_rate_pct": 5,
+          "cooking_operations": true,
+          "public_assembly": true,
+          "max_occupant_load": 600
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 2,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.4
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        },
+        "compliance": {
+          "code_violations": "Open fire escape violation - inspection pending"
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 1992,
+          "stories": 5,
+          "total_sqft": 65000,
+          "roof_type": "built_up",
+          "roof_age_years": 11,
+          "last_renovation_year": 2015
+        },
+        "hazards": {
+          "flood_zone": "AE",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "office",
+          "primary_tenant": "Vacant Ground Floor",
+          "vacancy_rate_pct": 25,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 300
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 2,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.4
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        },
+        "compliance": {
+          "code_violations": null
+        }
+      }
+    },
+    {
+      "property_id": "PROP-NE-006",
+      "property_name": "Harbor View Chemical",
+      "address": "1 Harbor View Dr, Bayonne, NJ 07002",
+      "property_type": "industrial",
+      "total_insured_value": 6000000,
+      "current_year": {
+        "construction": {
+          "construction_type": "non_combustible",
+          "construction_class": 4,
+          "year_built": 1975,
+          "stories": 1,
+          "total_sqft": 28000,
+          "roof_type": "metal",
+          "roof_age_years": 25,
+          "last_renovation_year": 1990
+        },
+        "hazards": {
+          "flood_zone": "AE",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": true,
+          "hazmat_details": "Extensive chemical storage and processing"
+        },
+        "occupancy": {
+          "occupancy_type": "chemical_manufacturing",
+          "primary_tenant": "Elite Chemicals LLC",
+          "vacancy_rate_pct": 0,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 40
+        },
+        "protection": {
+          "sprinkler_status": "partial",
+          "alarm_status": "central_station",
+          "fire_protection_class": 4,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 2.0
+        },
+        "loss": {
+          "claims_last_3yr": 2,
+          "total_incurred_last_3yr": 250000,
+          "largest_single_loss": 200000,
+          "loss_ratio_3yr": 1.25
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "non_combustible",
+          "construction_class": 4,
+          "year_built": 1975,
+          "stories": 1,
+          "total_sqft": 28000,
+          "roof_type": "metal",
+          "roof_age_years": 24,
+          "last_renovation_year": 1990
+        },
+        "hazards": {
+          "flood_zone": "AE",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": true,
+          "hazmat_details": "Limited chemical storage"
+        },
+        "occupancy": {
+          "occupancy_type": "warehouse",
+          "primary_tenant": "Elite Chemicals LLC (Storage Only)",
+          "vacancy_rate_pct": 0,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 20
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 4,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 2.0
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      }
+    },
+    {
+      "property_id": "PROP-NE-007",
+      "property_name": "Condemned Waterfront Warehouse",
+      "address": "12 Terminal St, Elizabeth, NJ 07201",
+      "property_type": "industrial",
+      "total_insured_value": 3000000,
+      "current_year": {
+        "construction": {
+          "construction_type": "ordinary",
+          "construction_class": 3,
+          "year_built": 1940,
+          "stories": 2,
+          "total_sqft": 55000,
+          "roof_type": "wood_deck",
+          "roof_age_years": 45,
+          "last_renovation_year": 1970
+        },
+        "hazards": {
+          "flood_zone": "VE",
+          "earthquake_zone": "low",
+          "windstorm_zone": "high",
+          "brush_fire_exposure": false,
+          "hazardous_materials": true,
+          "hazmat_details": "Unknown abandoned materials"
+        },
+        "occupancy": {
+          "occupancy_type": "vacant_warehouse",
+          "primary_tenant": "None (Condemned)",
+          "vacancy_rate_pct": 100,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 0
+        },
+        "protection": {
+          "sprinkler_status": "none",
+          "alarm_status": "none",
+          "fire_protection_class": 6,
+          "security_system": false,
+          "fire_extinguishers": false,
+          "distance_to_fire_station_miles": 5.0
+        },
+        "loss": {
+          "claims_last_3yr": 3,
+          "total_incurred_last_3yr": 450000,
+          "largest_single_loss": 300000,
+          "loss_ratio_3yr": 2.5
+        },
+        "compliance": {
+          "code_violations": "Building condemned, multiple structural and fire violations"
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "ordinary",
+          "construction_class": 3,
+          "year_built": 1940,
+          "stories": 2,
+          "total_sqft": 55000,
+          "roof_type": "wood_deck",
+          "roof_age_years": 44,
+          "last_renovation_year": 1970
+        },
+        "hazards": {
+          "flood_zone": "VE",
+          "earthquake_zone": "low",
+          "windstorm_zone": "high",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "warehouse",
+          "primary_tenant": "Small Storage Corp",
+          "vacancy_rate_pct": 40,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 20
+        },
+        "protection": {
+          "sprinkler_status": "partial",
+          "alarm_status": "local_only",
+          "fire_protection_class": 6,
+          "security_system": false,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 5.0
+        },
+        "loss": {
+          "claims_last_3yr": 1,
+          "total_incurred_last_3yr": 50000,
+          "largest_single_loss": 50000,
+          "loss_ratio_3yr": 0.5
+        },
+        "compliance": {
+          "code_violations": "Minor code violations noted"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "renewal_recommendation_agent",
+  "description": "Decision support agent that recommends renewal actions and generates professional rationales for brokers.",
+  "url": "http://localhost:8004",
+  "version": "1.0.0",
+  "capabilities": { "streaming": false, "pushNotifications": false },
+  "skills": [
+    {
+      "id": "renewal-recommendation",
+      "name": "Renewal Recommendation Generation",
+      "description": "Classifies renewal decisions and generates specific adjustments and rationales based on risk analysis.",
+      "inputModes": ["text"],
+      "outputModes": ["text"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "change_detection_agent",
+  "description": "Specialized agent for detecting and classifying changes in property insurance data between current and prior years.",
+  "url": "http://localhost:8002",
+  "version": "1.0.0",
+  "capabilities": { "streaming": false, "pushNotifications": false },
+  "skills": [
+    {
+      "id": "property-change-detection",
+      "name": "Property Change Detection",
+      "description": "Exhaustively compares property fields and classifies change severity (Material, Notable, Cosmetic).",
+      "inputModes": ["text"],
+      "outputModes": ["text"]
+    }
+  ]
+}

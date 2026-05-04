@@ -1,0 +1,465 @@
+{
+  "portfolio_id": "PF-SOUTHEAST-001",
+  "portfolio_name": "Southeast Retail Portfolio",
+  "account_name": "Sunbelt Retail Acquisitions LLC",
+  "renewal_date": "2026-08-15",
+  "broker": "Aon — Miami",
+  "current_premium": 620000,
+  "properties": [
+    {
+      "property_id": "PROP-SE-001",
+      "property_name": "Biscayne Bay Commons",
+      "address": "1500 Biscayne Blvd, Miami, FL 33132",
+      "property_type": "retail",
+      "total_insured_value": 18000000,
+      "current_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 2010,
+          "stories": 3,
+          "total_sqft": 145000,
+          "roof_type": "concrete",
+          "roof_age_years": 14,
+          "last_renovation_year": 2020
+        },
+        "hazards": {
+          "flood_zone": "AE",
+          "earthquake_zone": "low",
+          "windstorm_zone": "high",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "shopping_center",
+          "primary_tenant": "Publix Super Markets",
+          "vacancy_rate_pct": 2,
+          "cooking_operations": true,
+          "public_assembly": true,
+          "max_occupant_load": 3000
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 2,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 1.1
+        },
+        "loss": {
+          "claims_last_3yr": 1,
+          "total_incurred_last_3yr": 15000,
+          "largest_single_loss": 15000,
+          "loss_ratio_3yr": 0.05
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 2010,
+          "stories": 3,
+          "total_sqft": 145000,
+          "roof_type": "concrete",
+          "roof_age_years": 13,
+          "last_renovation_year": 2020
+        },
+        "hazards": {
+          "flood_zone": "AE",
+          "earthquake_zone": "low",
+          "windstorm_zone": "high",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "shopping_center",
+          "primary_tenant": "Publix Super Markets",
+          "vacancy_rate_pct": 2,
+          "cooking_operations": true,
+          "public_assembly": true,
+          "max_occupant_load": 3000
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 2,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 1.1
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      }
+    },
+    {
+      "property_id": "PROP-SE-002",
+      "property_name": "Coral Gables Plaza",
+      "address": "220 Miracle Mile, Coral Gables, FL 33134",
+      "property_type": "retail",
+      "total_insured_value": 7500000,
+      "current_year": {
+        "construction": {
+          "construction_type": "non_combustible",
+          "construction_class": 4,
+          "year_built": 1995,
+          "stories": 2,
+          "total_sqft": 45000,
+          "roof_type": "metal",
+          "roof_age_years": 9,
+          "last_renovation_year": 2015
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "high",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "retail_strip",
+          "primary_tenant": "Starbucks Coffee",
+          "vacancy_rate_pct": 5,
+          "cooking_operations": true,
+          "public_assembly": false,
+          "max_occupant_load": 400
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 2,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.9
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "non_combustible",
+          "construction_class": 4,
+          "year_built": 1995,
+          "stories": 2,
+          "total_sqft": 45000,
+          "roof_type": "metal",
+          "roof_age_years": 8,
+          "last_renovation_year": 2015
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "high",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "retail_strip",
+          "primary_tenant": "Starbucks Coffee",
+          "vacancy_rate_pct": 5,
+          "cooking_operations": true,
+          "public_assembly": false,
+          "max_occupant_load": 400
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 2,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.9
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      }
+    },
+    {
+      "property_id": "PROP-SE-003",
+      "property_name": "Gulf Coast Retail Plaza",
+      "address": "4200 Gulf Blvd, St. Pete Beach, FL 33706",
+      "property_type": "retail",
+      "total_insured_value": 12000000,
+      "current_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 2005,
+          "stories": 1,
+          "total_sqft": 85000,
+          "roof_type": "built_up",
+          "roof_age_years": 19,
+          "last_renovation_year": 2024
+        },
+        "hazards": {
+          "flood_zone": "VE",
+          "earthquake_zone": "low",
+          "windstorm_zone": "high",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "retail_strip",
+          "primary_tenant": "The Ocean Grille (New)",
+          "vacancy_rate_pct": 0,
+          "cooking_operations": true,
+          "public_assembly": true,
+          "max_occupant_load": 1000
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 3,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 2.5
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 2005,
+          "stories": 1,
+          "total_sqft": 85000,
+          "roof_type": "built_up",
+          "roof_age_years": 18,
+          "last_renovation_year": 2005
+        },
+        "hazards": {
+          "flood_zone": "AE",
+          "earthquake_zone": "low",
+          "windstorm_zone": "high",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "retail_strip",
+          "primary_tenant": "Vacant (Prior Anchor)",
+          "vacancy_rate_pct": 25,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 500
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 3,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 2.5
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      }
+    },
+    {
+      "property_id": "PROP-SE-004",
+      "property_name": "Tampa Bay Outlet",
+      "address": "6100 Wesley Chapel Blvd, Lutz, FL 33559",
+      "property_type": "retail",
+      "total_insured_value": 25000000,
+      "current_year": {
+        "construction": {
+          "construction_type": "non_combustible",
+          "construction_class": 4,
+          "year_built": 2002,
+          "stories": 1,
+          "total_sqft": 220000,
+          "roof_type": "built_up",
+          "roof_age_years": 22,
+          "last_renovation_year": 2002
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "very_high",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "outlet_mall",
+          "primary_tenant": "Multiple National Brands",
+          "vacancy_rate_pct": 12,
+          "cooking_operations": true,
+          "public_assembly": true,
+          "max_occupant_load": 5000
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 4,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 3.0
+        },
+        "loss": {
+          "claims_last_3yr": 2,
+          "total_incurred_last_3yr": 85000,
+          "largest_single_loss": 60000,
+          "loss_ratio_3yr": 0.15
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "non_combustible",
+          "construction_class": 4,
+          "year_built": 2002,
+          "stories": 1,
+          "total_sqft": 220000,
+          "roof_type": "built_up",
+          "roof_age_years": 21,
+          "last_renovation_year": 2002
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "high",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "outlet_mall",
+          "primary_tenant": "Multiple National Brands",
+          "vacancy_rate_pct": 10,
+          "cooking_operations": true,
+          "public_assembly": true,
+          "max_occupant_load": 5000
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 4,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 3.0
+        },
+        "loss": {
+          "claims_last_3yr": 1,
+          "total_incurred_last_3yr": 25000,
+          "largest_single_loss": 25000,
+          "loss_ratio_3yr": 0.05
+        }
+      }
+    },
+    {
+      "property_id": "PROP-SE-005",
+      "property_name": "Miami Industrial Park (Retail Conversion)",
+      "address": "8800 NW 36th St, Doral, FL 33178",
+      "property_type": "retail",
+      "total_insured_value": 5500000,
+      "current_year": {
+        "construction": {
+          "construction_type": "ordinary",
+          "construction_class": 3,
+          "year_built": 1978,
+          "stories": 1,
+          "total_sqft": 35000,
+          "roof_type": "built_up",
+          "roof_age_years": 15,
+          "last_renovation_year": 2024
+        },
+        "hazards": {
+          "flood_zone": "AE",
+          "earthquake_zone": "low",
+          "windstorm_zone": "high",
+          "brush_fire_exposure": false,
+          "hazardous_materials": true,
+          "hazmat_details": "Chemical solvents stored on-site for light manufacturing"
+        },
+        "occupancy": {
+          "occupancy_type": "light_manufacturing",
+          "primary_tenant": "Coastal Precision Machining",
+          "vacancy_rate_pct": 0,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 50
+        },
+        "protection": {
+          "sprinkler_status": "partial",
+          "alarm_status": "local_only",
+          "fire_protection_class": 5,
+          "security_system": false,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 4.5
+        },
+        "loss": {
+          "claims_last_3yr": 3,
+          "total_incurred_last_3yr": 120000,
+          "largest_single_loss": 80000,
+          "loss_ratio_3yr": 0.45
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "ordinary",
+          "construction_class": 3,
+          "year_built": 1978,
+          "stories": 1,
+          "total_sqft": 35000,
+          "roof_type": "built_up",
+          "roof_age_years": 14,
+          "last_renovation_year": 2010
+        },
+        "hazards": {
+          "flood_zone": "AE",
+          "earthquake_zone": "low",
+          "windstorm_zone": "high",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "retail_warehouse",
+          "primary_tenant": "Discount Furniture Store",
+          "vacancy_rate_pct": 10,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 100
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 5,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 4.5
+        },
+        "loss": {
+          "claims_last_3yr": 1,
+          "total_incurred_last_3yr": 10000,
+          "largest_single_loss": 10000,
+          "loss_ratio_3yr": 0.05
+        }
+      }
+    }
+  ]
+}

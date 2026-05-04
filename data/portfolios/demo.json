@@ -1,0 +1,82 @@
+{
+    "portfolio_id": "PF-TEST-001",
+    "portfolio_name": "Test Portfolio",
+    "account_name": "Example Insurance LLC",
+    "renewal_date": "2026-07-01",
+    "current_premium": 250000,
+    "properties": [
+        {
+            "property_id": "PROP-001",
+            "property_name": "Sunset Office Building",
+            "address": "123 Main St, Austin, TX 78701",
+            "property_type": "office",
+            "total_insured_value": 5000000,
+            "current_year": {
+                "construction": {
+                    "construction_type": "fire_resistive",
+                    "construction_class": 6,
+                    "year_built": 2005,
+                    "stories": 5,
+                    "total_sqft": 60000,
+                    "roof_type": "tpo",
+                    "roof_age_years": 3,
+                    "last_renovation_year": 2023
+                },
+                "occupancy": {
+                    "occupancy_type": "professional_office",
+                    "primary_tenant": "Tech Solutions Inc",
+                    "vacancy_rate_pct": 4,
+                    "max_occupant_load": 400
+                },
+                "hazards": {
+                    "flood_zone": "X",
+                    "earthquake_zone": "low",
+                    "windstorm_zone": "moderate"
+                },
+                "protection": {
+                    "sprinkler_status": "full_wet",
+                    "alarm_status": "central_station",
+                    "security_system": true,
+                    "distance_to_fire_station_miles": 1.0
+                },
+                "loss": {
+                    "claims_last_3yr": 1,
+                    "total_incurred_last_3yr": 15000
+                }
+            },
+            "prior_year": {
+                "construction": {
+                    "construction_type": "fire_resistive",
+                    "construction_class": 6,
+                    "year_built": 2005,
+                    "stories": 5,
+                    "total_sqft": 60000,
+                    "roof_type": "tpo",
+                    "roof_age_years": 2,
+                    "last_renovation_year": 2018
+                },
+                "occupancy": {
+                    "occupancy_type": "professional_office",
+                    "primary_tenant": "Tech Solutions Inc",
+                    "vacancy_rate_pct": 6,
+                    "max_occupant_load": 400
+                },
+                "hazards": {
+                    "flood_zone": "X",
+                    "earthquake_zone": "low",
+                    "windstorm_zone": "moderate"
+                },
+                "protection": {
+                    "sprinkler_status": "full_wet",
+                    "alarm_status": "central_station",
+                    "security_system": true,
+                    "distance_to_fire_station_miles": 1.0
+                },
+                "loss": {
+                    "claims_last_3yr": 0,
+                    "total_incurred_last_3yr": 0
+                }
+            }
+        }
+    ]
+}

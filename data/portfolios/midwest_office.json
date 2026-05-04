@@ -1,0 +1,556 @@
+{
+  "portfolio_id": "PF-MIDWEST-001",
+  "portfolio_name": "Midwest Office Portfolio",
+  "account_name": "Heartland Commercial Properties LLC",
+  "renewal_date": "2026-07-01",
+  "broker": "Marsh McLennan — Chicago",
+  "current_premium": 485000,
+  "properties": [
+    {
+      "property_id": "PROP-MW-001",
+      "property_name": "200 Lakeview Office Park",
+      "address": "200 N Lakeview Ave, Chicago, IL 60601",
+      "property_type": "office",
+      "total_insured_value": 12500000,
+      "current_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 1998,
+          "stories": 12,
+          "total_sqft": 185000,
+          "roof_type": "built_up",
+          "roof_age_years": 8,
+          "last_renovation_year": 2023
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "professional_office",
+          "primary_tenant": "Midwest Financial Group",
+          "vacancy_rate_pct": 5,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 1200
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 3,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 1.2
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 1998,
+          "stories": 12,
+          "total_sqft": 185000,
+          "roof_type": "built_up",
+          "roof_age_years": 7,
+          "last_renovation_year": 2023
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "professional_office",
+          "primary_tenant": "Midwest Financial Group",
+          "vacancy_rate_pct": 5,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 1200
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 3,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 1.2
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      }
+    },
+    {
+      "property_id": "PROP-MW-002",
+      "property_name": "O'Hare Logistics Center",
+      "address": "10500 W Irving Park Rd, Schiller Park, IL 60176",
+      "property_type": "office",
+      "total_insured_value": 8200000,
+      "current_year": {
+        "construction": {
+          "construction_type": "non_combustible",
+          "construction_class": 4,
+          "year_built": 2005,
+          "stories": 2,
+          "total_sqft": 120000,
+          "roof_type": "metal",
+          "roof_age_years": 19,
+          "last_renovation_year": 2015
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "office_warehouse",
+          "primary_tenant": "Global Logistics Corp",
+          "vacancy_rate_pct": 0,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 200
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 4,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.8
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "non_combustible",
+          "construction_class": 4,
+          "year_built": 2005,
+          "stories": 2,
+          "total_sqft": 120000,
+          "roof_type": "metal",
+          "roof_age_years": 18,
+          "last_renovation_year": 2015
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "office_warehouse",
+          "primary_tenant": "Global Logistics Corp",
+          "vacancy_rate_pct": 0,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 200
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 4,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.8
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      }
+    },
+    {
+      "property_id": "PROP-MW-003",
+      "property_name": "Naperville Tech Plaza",
+      "address": "1200 Tech Dr, Naperville, IL 60563",
+      "property_type": "office",
+      "total_insured_value": 15000000,
+      "current_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 2012,
+          "stories": 5,
+          "total_sqft": 150000,
+          "roof_type": "tpo",
+          "roof_age_years": 12,
+          "last_renovation_year": 2024
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "tech_office",
+          "primary_tenant": "Cloud Systems Inc",
+          "vacancy_rate_pct": 2,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 800
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 2,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 1.5
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 2012,
+          "stories": 5,
+          "total_sqft": 150000,
+          "roof_type": "tpo",
+          "roof_age_years": 11,
+          "last_renovation_year": 2012
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "tech_office",
+          "primary_tenant": "Cloud Systems Inc",
+          "vacancy_rate_pct": 2,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 800
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 2,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 1.5
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      }
+    },
+    {
+      "property_id": "PROP-MW-004",
+      "property_name": "Dearborn Professional Center",
+      "address": "450 S Dearborn St, Chicago, IL 60605",
+      "property_type": "office",
+      "total_insured_value": 9500000,
+      "current_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 1990,
+          "stories": 8,
+          "total_sqft": 92000,
+          "roof_type": "built_up",
+          "roof_age_years": 15,
+          "last_renovation_year": 2018
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "medical_office",
+          "primary_tenant": "City Health Partners",
+          "vacancy_rate_pct": 10,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 500
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 3,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.5
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 1990,
+          "stories": 8,
+          "total_sqft": 92000,
+          "roof_type": "built_up",
+          "roof_age_years": 14,
+          "last_renovation_year": 2018
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "medical_office",
+          "primary_tenant": "City Health Partners",
+          "vacancy_rate_pct": 10,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 500
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 3,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.5
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      }
+    },
+    {
+      "property_id": "PROP-MW-005",
+      "property_name": "Michigan Ave Suites",
+      "address": "625 N Michigan Ave, Chicago, IL 60611",
+      "property_type": "office",
+      "total_insured_value": 22000000,
+      "current_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 1985,
+          "stories": 25,
+          "total_sqft": 310000,
+          "roof_type": "built_up",
+          "roof_age_years": 5,
+          "last_renovation_year": 2024
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "professional_office",
+          "primary_tenant": "Law Offices of Smith & Co",
+          "vacancy_rate_pct": 8,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 2500
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 2,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.3
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 1985,
+          "stories": 25,
+          "total_sqft": 310000,
+          "roof_type": "built_up",
+          "roof_age_years": 4,
+          "last_renovation_year": 2010
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "professional_office",
+          "primary_tenant": "Law Offices of Smith & Co",
+          "vacancy_rate_pct": 8,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 2500
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 2,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.3
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      }
+    },
+    {
+      "property_id": "PROP-MW-006",
+      "property_name": "River North Creative Hub",
+      "address": "700 N Wells St, Chicago, IL 60654",
+      "property_type": "office",
+      "total_insured_value": 11000000,
+      "current_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 2002,
+          "stories": 6,
+          "total_sqft": 105000,
+          "roof_type": "tpo",
+          "roof_age_years": 2,
+          "last_renovation_year": 2022
+        },
+        "hazards": {
+          "flood_zone": "AE",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "creative_office",
+          "primary_tenant": "Digital Arts Group",
+          "vacancy_rate_pct": 4,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 700
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 3,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.7
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      },
+      "prior_year": {
+        "construction": {
+          "construction_type": "fire_resistive",
+          "construction_class": 6,
+          "year_built": 2002,
+          "stories": 6,
+          "total_sqft": 105000,
+          "roof_type": "tpo",
+          "roof_age_years": 1,
+          "last_renovation_year": 2022
+        },
+        "hazards": {
+          "flood_zone": "X",
+          "earthquake_zone": "low",
+          "windstorm_zone": "moderate",
+          "brush_fire_exposure": false,
+          "hazardous_materials": false,
+          "hazmat_details": null
+        },
+        "occupancy": {
+          "occupancy_type": "creative_office",
+          "primary_tenant": "Digital Arts Group",
+          "vacancy_rate_pct": 4,
+          "cooking_operations": false,
+          "public_assembly": false,
+          "max_occupant_load": 700
+        },
+        "protection": {
+          "sprinkler_status": "full_wet",
+          "alarm_status": "central_station",
+          "fire_protection_class": 3,
+          "security_system": true,
+          "fire_extinguishers": true,
+          "distance_to_fire_station_miles": 0.7
+        },
+        "loss": {
+          "claims_last_3yr": 0,
+          "total_incurred_last_3yr": 0,
+          "largest_single_loss": 0,
+          "loss_ratio_3yr": 0.0
+        }
+      }
+    }
+  ]
+}
